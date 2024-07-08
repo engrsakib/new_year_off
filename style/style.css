@@ -384,8 +384,9 @@
 .holy_days {
   width: 895px;
   height: 640.9px;
-  border: solid red 2px;
+  /* border: solid red 2px; */
   margin: 0 auto;
+  position: relative;
 }
 .holy_days .holydays_text {
   background-color: white;
@@ -420,4 +421,48 @@
   line-height: 20px;
   letter-spacing: 0%;
   text-align: center;
+}
+.solid_color {
+  border-radius: 16px 0px 16px 16px;
+  background: rgb(255, 0, 0);
+  width: 895px;
+  height: 148px;
+  position: absolute;
+  top: 77%;
+}
+.gift_box {
+  width: 858px;
+  height: 148px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 35%;
+}
+.gift_box img{
+  width: 410px;
+  height: auto;
+}
+
+.girl_pic{
+  width: 278px;
+  height: 281px;
+}
+.girl_pic img{
+  width: 150px;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+.dis_img{
+  width: 118px;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  left: 60%;
+}
+.dis_img img{
+  width: 115px;
+  height: auto;
 }
