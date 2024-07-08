@@ -375,7 +375,49 @@
   text-align: left;
 }
 
-.coming_3 img{
+.coming_3 img {
   width: 90px;
   height: auto;
+}
+
+/* holy days sale */
+.holy_days {
+  width: 895px;
+  height: 640.9px;
+  border: solid red 2px;
+  margin: 0 auto;
+}
+.holy_days .holydays_text {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.holydays_text h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holydays_text h1 {
+  font-family: Merriweather;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 59px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: black;
+}
+.holydays_text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
 }
